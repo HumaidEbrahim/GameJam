@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"64200451-a27c-44d2-be32-36dc8a2b3c1c","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"64200451-a27c-44d2-be32-36dc8a2b3c1c","opacity":51.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
     {"$GMImageLayer":"","%Name":"61a3cc21-5f95-4577-a829-c244cf6e5875","blendMode":0,"displayName":"default","isLocked":false,"name":"61a3cc21-5f95-4577-a829-c244cf6e5875","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_zombie2",

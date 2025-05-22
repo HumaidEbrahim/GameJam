@@ -45,7 +45,6 @@
     {"id":{"name":"MenuButtons","path":"fonts/MenuButtons/MenuButtons.yy",},},
     {"id":{"name":"Obj_button_parent","path":"objects/Obj_button_parent/Obj_button_parent.yy",},},
     {"id":{"name":"Obj_button_play","path":"objects/Obj_button_play/Obj_button_play.yy",},},
-    {"id":{"name":"obj_DamageParent","path":"objects/obj_DamageParent/obj_DamageParent.yy",},},
     {"id":{"name":"Obj_EnemyGeneric","path":"objects/Obj_EnemyGeneric/Obj_EnemyGeneric.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},

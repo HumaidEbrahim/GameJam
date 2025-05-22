@@ -14,10 +14,7 @@
     "name":"Bullets",
     "path":"folders/Objects/Bullets.yy",
   },
-  "parentObjectId":{
-    "name":"obj_DamageParent",
-    "path":"objects/obj_DamageParent/obj_DamageParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
