@@ -33,7 +33,10 @@ centerY = y + global.centerYOffset
 
 #region
 face = round(aimDir/90);
-if face == 4 {face = 0};
+if face == 4 
+{
+	face = 0
+};
 if xSpeed == 0 && ySpeed == 0
 {
 	image_index = 0
