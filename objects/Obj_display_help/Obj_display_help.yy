@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_display_help",
+  "%Name":"Obj_display_Help",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_display_help",
+  "name":"Obj_display_Help",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
