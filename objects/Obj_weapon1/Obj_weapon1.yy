@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_wall2",
-  "eventList":[],
+  "%Name":"Obj_weapon1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_wall2",
+  "name":"Obj_weapon1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Weapons",
+    "path":"folders/Objects/Weapons.yy",
   },
   "parentObjectId":{
-    "name":"Obj_wall",
-    "path":"objects/Obj_wall/Obj_wall.yy",
+    "name":"Obj_weapon",
+    "path":"objects/Obj_weapon/Obj_weapon.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Wall2",
-    "path":"sprites/Wall2/Wall2.yy",
+    "name":"Weapoon1",
+    "path":"sprites/Weapoon1/Weapoon1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
