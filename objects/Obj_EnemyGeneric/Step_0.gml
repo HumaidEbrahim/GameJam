@@ -47,9 +47,9 @@ if place_meeting(x, y + ySpeed, Obj_wall)|| place_meeting(x + xSpeed, y, Obj_Ene
 	ySpeed = 0;
 }
 
-/*
+
 //movement
 x += xSpeed
 y += ySpeed
-*/
+
 

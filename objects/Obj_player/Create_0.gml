@@ -5,7 +5,7 @@ xSpeed = 0;
 ySpeed = 0;
  
 currentWeapon = noone;
-equip_weapon(Obj_weapon1)
+equip_weapon(Obj_weapon2)
 centerY = 0;
 aimDir = 0;
  
