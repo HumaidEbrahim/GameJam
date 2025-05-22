@@ -1,22 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_weapon_bullet",
+  "%Name":"obj_zombie2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_wall2","path":"objects/Obj_wall2/Obj_wall2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_weapon_bullet",
+  "name":"obj_zombie2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Objects/Bullets.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_DamageParent",
-    "path":"objects/obj_DamageParent/obj_DamageParent.yy",
+    "name":"Obj_EnemyGeneric",
+    "path":"objects/Obj_EnemyGeneric/Obj_EnemyGeneric.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_zombie2",
+    "path":"sprites/spr_zombie2/spr_zombie2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
