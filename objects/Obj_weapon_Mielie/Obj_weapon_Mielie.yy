@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_zombie",
+  "%Name":"Obj_weapon_Mielie",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_zombie",
+  "name":"Obj_weapon_Mielie",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Weapons",
+    "path":"folders/Objects/Weapons.yy",
   },
   "parentObjectId":{
-    "name":"Obj_EnemyGeneric",
-    "path":"objects/Obj_EnemyGeneric/Obj_EnemyGeneric.yy",
+    "name":"Obj_weapon",
+    "path":"objects/Obj_weapon/Obj_weapon.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_zombie1",
-    "path":"sprites/spr_zombie1/spr_zombie1.yy",
+    "name":"Mielie",
+    "path":"sprites/Mielie/Mielie.yy",
   },
   "spriteMaskId":null,
   "visible":true,

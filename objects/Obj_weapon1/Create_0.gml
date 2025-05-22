@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited();
 
-shootCooldown = shootCooldown + 10;
+shootCooldown = shootCooldown + 5;
 shootTimer = 0;

@@ -1,27 +1,11 @@
-if place_meeting(x, y, Obj_weapon_bullet)
-{
-	var _inst = instance_place(x, y, Obj_weapon_bullet)
-	
-	//take damage from specific instance
-	hp -= _inst.damage;
-	
-	
-	// In enemy object's Take Damage event or script
-	image_blend = c_red;
-	damage_flash_timer = 5; 
-	
 
-}
-
-
-if (damage_flash_timer > 0) {
+if damage_flash_timer > 0 {
     damage_flash_timer -= 1;
 
     if (damage_flash_timer <= 0) {
         image_blend = c_white; // or c_lime or whatever the original color is
     }
 }
-
 
 //death
 if hp <= 0
