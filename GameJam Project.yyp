@@ -43,9 +43,12 @@
   "name":"GameJam Project",
   "resources":[
     {"id":{"name":"MenuButtons","path":"fonts/MenuButtons/MenuButtons.yy",},},
+    {"id":{"name":"Obj_button_help","path":"objects/Obj_button_help/Obj_button_help.yy",},},
     {"id":{"name":"Obj_button_parent","path":"objects/Obj_button_parent/Obj_button_parent.yy",},},
     {"id":{"name":"Obj_button_play","path":"objects/Obj_button_play/Obj_button_play.yy",},},
+    {"id":{"name":"Obj_button_quit","path":"objects/Obj_button_quit/Obj_button_quit.yy",},},
     {"id":{"name":"obj_DamageParent","path":"objects/obj_DamageParent/obj_DamageParent.yy",},},
+    {"id":{"name":"Obj_display_help","path":"objects/Obj_display_help/Obj_display_help.yy",},},
     {"id":{"name":"Obj_EnemyGeneric","path":"objects/Obj_EnemyGeneric/Obj_EnemyGeneric.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},
@@ -58,6 +61,7 @@
     {"id":{"name":"Obj_weapon2","path":"objects/Obj_weapon2/Obj_weapon2.yy",},},
     {"id":{"name":"obj_zombie","path":"objects/obj_zombie/obj_zombie.yy",},},
     {"id":{"name":"obj_zombie2","path":"objects/obj_zombie2/obj_zombie2.yy",},},
+    {"id":{"name":"Help","path":"rooms/Help/Help.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"Map1","path":"rooms/Map1/Map1.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
@@ -81,6 +85,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"Map1","path":"rooms/Map1/Map1.yy",},},
+    {"roomId":{"name":"Help","path":"rooms/Help/Help.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
