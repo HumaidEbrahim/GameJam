@@ -1,3 +1,4 @@
+if equipped{
 useWeapon = mouse_check_button(mb_left);
 centerY = y + global.centerYOffset;
 
@@ -16,3 +17,8 @@ if aimDir > 90 && aimDir < 270
 }
 
 image_angle = aimDir;
+
+}
+if owner != noone && shootTimer > 0 {
+	shootTimer--;
+}

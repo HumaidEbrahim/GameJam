@@ -1,12 +1,8 @@
-rightKey = keyboard_check(ord("D"));
-leftKey = keyboard_check(ord("A"));
-upKey = keyboard_check(ord("W"));
-downKey = keyboard_check(ord("S"));
-dropGun = keyboard_check(ord("G"));
-
-if dropGun{
-	equip_weapon(Obj_weapon);	
-}
+var rightKey = keyboard_check(ord("D"));
+var leftKey = keyboard_check(ord("A"));
+var upKey = keyboard_check(ord("W"));
+var downKey = keyboard_check(ord("S"));
+equipKey = keyboard_check(ord("G"));
 
 #region
 	var _horizontal = rightKey - leftKey;

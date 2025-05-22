@@ -1,3 +1,3 @@
 // Inherit the parent event
 event_inherited();
-speed = 5;
+speed = 3;

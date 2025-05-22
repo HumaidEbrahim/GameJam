@@ -18,10 +18,13 @@ sprite[3] = RunFront;
 sprite_index = sprite[face];
 mask_index = sprite[3];
 
+
 function equip_weapon(weapon_object){
 	if(instance_exists(currentWeapon)){
 		instance_destroy(currentWeapon);
 	}
-	currentWeapon = instance_create_layer(x,y,"Instances",weapon_object);
+	currentWeapon = instance_create_layer(x,y - 15,"Instances",weapon_object);
 	currentWeapon.owner = id;
+	currentWeapon.equipped = true;
+	currentWeapon.mask_index = -1;
 }
