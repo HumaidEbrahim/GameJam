@@ -43,6 +43,7 @@
   "name":"GameJam Project",
   "resources":[
     {"id":{"name":"MenuButtons","path":"fonts/MenuButtons/MenuButtons.yy",},},
+    {"id":{"name":"Obj_button_back","path":"objects/Obj_button_back/Obj_button_back.yy",},},
     {"id":{"name":"Obj_button_help","path":"objects/Obj_button_help/Obj_button_help.yy",},},
     {"id":{"name":"Obj_button_parent","path":"objects/Obj_button_parent/Obj_button_parent.yy",},},
     {"id":{"name":"Obj_button_play","path":"objects/Obj_button_play/Obj_button_play.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"obj_DamageParent","path":"objects/obj_DamageParent/obj_DamageParent.yy",},},
     {"id":{"name":"Obj_display_help","path":"objects/Obj_display_help/Obj_display_help.yy",},},
     {"id":{"name":"Obj_EnemyGeneric","path":"objects/Obj_EnemyGeneric/Obj_EnemyGeneric.yy",},},
+    {"id":{"name":"Obj_Game","path":"objects/Obj_Game/Obj_Game.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},
     {"id":{"name":"Obj_wall2","path":"objects/Obj_wall2/Obj_wall2.yy",},},
