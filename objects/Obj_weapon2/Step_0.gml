@@ -13,5 +13,10 @@ if useWeapon && shootTimer <= 0
 	_bullet2.direction = mouseTrack() + 10;
 	_bullet3.direction = mouseTrack() + 15;
 	_bullet4.direction = mouseTrack() + 20;
+	_bullet.image_angle = mouseTrack();
+	_bullet1.image_angle = mouseTrack();
+	_bullet2.image_angle = mouseTrack();
+	_bullet3.image_angle = mouseTrack();
+	_bullet4.image_angle = mouseTrack();
 	
 }

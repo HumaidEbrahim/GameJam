@@ -1,4 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-hp = hp + 1000
+<<<<<<< Updated upstream
+hp = +1000
+=======
+hp = hp + 10
+>>>>>>> Stashed changes

@@ -6,6 +6,7 @@ if useWeapon && shootTimer <= 0
 	var _bullet = instance_create_layer(x, y, "Instances_1",Obj_weapon3_bullet)
 	with(_bullet){
 		direction = mouseTrack();
+		image_angle = mouseTrack()
 	}
 }
 

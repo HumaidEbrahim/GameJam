@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_display_Help",
+  "%Name":"Obj_weapon3_bullet",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_display_Help",
+  "name":"Obj_weapon3_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/Objects/UI.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Bullets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_weapon_bullet",
+    "path":"objects/Obj_weapon_bullet/Obj_weapon_bullet.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"laser1",
+    "path":"sprites/laser1/laser1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"weapon2Bullet",
-    "path":"sprites/weapon2Bullet/weapon2Bullet.yy",
+    "name":"laser1",
+    "path":"sprites/laser1/laser1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
